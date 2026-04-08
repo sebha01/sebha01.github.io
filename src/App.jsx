@@ -7,6 +7,7 @@ import Hero from './Hero'
 import AboutMe from './AboutMe'
 import ContactMe from './ContactMe'
 import Projects from './Projects'
+import Footer from './Footer'
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<ContactMe />} />
         </Routes>
+
+        <Footer></Footer>
     </BrowserRouter>
   )
 }
