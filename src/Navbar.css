@@ -2,30 +2,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
   color: #fff;
   padding: 1rem;
 }
 
-.navbar-left .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;
-  text-decoration: none;
-}
-
-.navbar-center .nav-links {
-  list-style-type: none;
+.navbar-center {
   display: flex;
-  margin: 0;
-  padding: 0;
+  gap: 4rem;
 }
 
-.navbar-center .nav-links li {
-  margin-right: 1rem;
-}
-
-.navbar-center .nav-links a {
-  color: #fff;
+.navbar a {
+  color: var(--text-h);
   text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--accent);
 }
