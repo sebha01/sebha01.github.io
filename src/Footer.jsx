@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
     return (
         <footer className="footer">
-            <p>CopyRight &copy; 2025 Sebastian Ha. All Rights Reserved.</p>
+            <p>CopyRight &copy; 2026 Sebastian Ha. All Rights Reserved.</p>
             <p>Contact Me: <a href="mailto:sebastianha175@gmail.com" className="footerLink">
                 sebastianha175@gmail.com
             </a></p>
