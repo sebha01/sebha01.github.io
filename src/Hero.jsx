@@ -19,7 +19,11 @@ function Hero() {
               Game Developer | Problem Solver | Video Game Enthusiast
             </p>
         </div>     
-        <Link to="/about" className="heroButton">Learn more about me</Link>   
+        <Link to="/about" className="heroButton">Learn more about me</Link>  
+      </section>
+      <section className="extras">
+        <div>Most recent project</div>
+        <div>Qualifications</div> 
       </section>
     </>
   )

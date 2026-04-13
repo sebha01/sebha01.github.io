@@ -46,3 +46,10 @@
 .heroButton:hover {
   color: var(--accent);
 }
+
+.extras {
+  border-top: 1px solid var(--border);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
