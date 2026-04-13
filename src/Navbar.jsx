@@ -8,7 +8,14 @@ function NavBar() {
             <Link to="/">Home</Link>
           </div>
           <div className="navbar-center">
-            <Link to="/projects">Projects</Link>
+            <div className="dropdown">
+              <Link to="/projects" className="dropbtn">Projects</Link>
+              <div className="dropdown-menu">
+                <Link to="/projects/sonder">Project1</Link>
+                <Link to="/projects/project2">Project 2</Link>
+                <Link to="/projects/project3">Project 3</Link>
+              </div>
+            </div>
             <Link to="/about">About Me</Link>
             <Link to="/contact">Contact Me</Link>
           </div>
