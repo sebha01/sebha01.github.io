@@ -8,17 +8,30 @@ function Projects() {
         <div>
           {/*Final Year Project*/}
           <div className='projectsSectionTop'>
-            <h1>An Educational Virtual Reality Approach to Raising Awareness of Digital Eye Strain (Computer Vision Syndrome)</h1>
-            <Link to="/projects/FinalYearProject">
-              <img src="/Images/OutbreakDelta6.png" className="projectImage" alt="VR applications in Optholmalogy" />
-            </Link>
+            <h1>Year 3 Projects</h1>
+              <div className='projectsList'>
+                <div>
+                  <h3>Final Year Project - An Educational Virtual Reality Approach to Raising Awareness of Digital Eye Strain (Computer Vision Syndrome)</h3>
+                  <Link to="/projects/FinalYearProject">
+                    <img src="/Images/OutbreakDelta6.png" className="projectImage" alt="VR applications in Optholmalogy" />
+                  </Link> 
+                </div>
+                <div>
+                  <h3>Rule based system in c++ for waiting for a table</h3>
+                </div>
+              </div>
           </div>
 
           {/* Year 2 Projects */}
-          <div className="projectsSectionTop">
+          <div className="projectsSection">
             <h1>Year 2 Projects:</h1>
             <hr />
             <div className="projectsList">
+              {/*Sebleste*/}
+              <div>
+                <h3>Sebleste</h3>
+                
+              </div>
               {/* Sploot */}
               <div>
                 <h3>Sploot</h3>
