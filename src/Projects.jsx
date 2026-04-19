@@ -6,6 +6,14 @@ function Projects() {
     <>
       <section className="projectsContainer">
         <div>
+          {/*Final Year Project*/}
+          <div className='projectsSectionTop'>
+            <h1>An Educational Virtual Reality Approach to Raising Awareness of Digital Eye Strain (Computer Vision Syndrome)</h1>
+            <Link to="/projects/FinalYearProject">
+              <img src="/Images/OutbreakDelta6.png" className="projectImage" alt="VR applications in Optholmalogy" />
+            </Link>
+          </div>
+
           {/* Year 2 Projects */}
           <div className="projectsSectionTop">
             <h1>Year 2 Projects:</h1>

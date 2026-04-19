@@ -11,6 +11,7 @@ import TheJourneyHome from './Projects/TheJourneyHome'
 import Sonder from './Projects/Sonder'
 import Sploot from './Projects/Sploot'
 import OutbreakDelta from './Projects/OutbreakDelta'
+import FinalYearProject from './Projects/VRProject'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/projects/Sonder" element={<Sonder />} />
           <Route path="/projects/Sploot" element={<Sploot />} />
           <Route path="/projects/OutbreakDelta" element={<OutbreakDelta />} />
+          <Route path='/projects/FinalYearProject' element={<FinalYearProject />}/>
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<ContactMe />} />
         </Routes>
