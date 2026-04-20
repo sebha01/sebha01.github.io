@@ -1,98 +1,135 @@
 function Sebleste() {
-    return (
-        <>
-            <section>
-                <div>
-                    <h1>Sebleste</h1>
-                    <hr />
+  return (
+    <>
+        <section className="projectDetails">
+            <div>
+                <h1>Sebleste</h1>
+                <hr />
 
-                    <br /><br />
-                    <h3>Check it out on itch.io below!</h3>
-                    <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/3510144">
-                        <a href="https://sebastianha01.itch.io/sebleste">
-                            Sebleste by Steam Bun Games - Sebastian Ha
-                        </a>
-                    </iframe>
+                <h3>Low-level NES platformer built in C</h3>
 
-                    <p>
-                        Sebleste is a retro-inspired platformer where the player climbs through
-                        dangerous zones using jumping, dashing, and climbing mechanics to reach
-                        the summit.
-                    </p>
+                <iframe frameborder="0" src="https://itch.io/embed/3510144" width="552" height="167">
+                    <a href="https://sebastianha01.itch.io/sebleste">
+                        Sebleste by Steam Bun Games - Sebastian Ha
+                    </a>
+                </iframe>
 
-                    <h2>Project Overview</h2>
-                    <p>
-                        This project focuses on precision platforming, environmental hazards,
-                        and progression through multiple themed areas. The player controls Ha,
-                        an ambitious dreamer attempting to conquer a mountain said to contain
-                        an ancient power.
-                    </p>
+                <p>
+                    Sebleste is a retro-inspired 2D platformer developed in low-level C for an
+                    NES-style environment. The project focuses on implementing core gameplay
+                    systems such as movement, collision, progression, and UI within tight
+                    hardware-style constraints.
+                </p>
 
-                    <img src="/Images/Sebleste12.png" alt="Sebleste title screen" />
+                <img src="/Images/Sebleste12.png" alt="Sebleste title screen" />
 
-                    <h2>The Story</h2>
-                    <p>
-                        In a distant land beneath ruined peaks stands a mountain no one dares
-                        climb. Rumour tells of an ancient power hidden within it, but many have
-                        lost their lives trying to reach it. You play as Ha, driven to conquer
-                        the impossible while overcoming fear, doubt, and the dangers of the
-                        climb.
-                    </p>
+                <h2>Project Overview</h2>
+                <p>
+                    The game is structured around three levels where the player moves left and
+                    right, jumps, dashes, avoids hazards, and reaches the goal door to progress.
+                    The codebase uses explicit game states, frame-driven updates, and tile-based
+                    logic to control gameplay flow. 
+                </p>
 
-                    <img src="/Images/Sebleste10.png" alt="Sebleste story screen" />
+                <h2>Technical Implementation</h2>
+                <p>
+                    The project was built using low-level C with NES homebrew libraries,
+                    including neslib and nesdoug. The main loop waits per frame using
+                    <code>ppu_wait_nmi()</code>, polls controller input, and switches behaviour
+                    based on the current game state. This includes title, gameplay, credits, and
+                    end screen handling. 
+                </p>
 
-                    <h2>How to Play</h2>
-                    <p>
-                        The core controls are simple: Start begins the game, A jumps, B dashes,
-                        the left and right arrows move the player, and Select opens the credits
-                        from the start screen.
-                    </p>
+                <p>
+                    A custom <code>Player</code> struct stores position, collider bounds, facing
+                    direction, vertical velocity, jump state, jump buffer, coyote time, dash
+                    state, dash cooldown, damage timer, and death counter. This keeps the core
+                    player systems organised around a single gameplay object. 
+                </p>
 
-                    <img src="/Images/Sebleste6.png" alt="Sebleste controls screen" />
+                <h2>Movement Systems</h2>
+                <p>
+                    Sebleste includes several movement features designed to make the platforming
+                    feel responsive: standard movement, jumping, dashing, coyote time, and jump
+                    buffering. Constants such as <code>JUMP_VELOCITY</code>,
+                    <code>COYOTE_FRAMES</code>, <code>JUMP_BUFFER_FRAMES</code>,
+                    <code>DASH_SPEED</code>, <code>DASH_DURATION</code>, and
+                    <code>DASH_COOLDOWN</code> are defined directly in code to tune gameplay
+                    behaviour. 
+                </p>
 
-                    <h2>Zones</h2>
-                    <p>
-                        The game features multiple areas with different identities and hazards:
-                        Rust Zone, Zone Zero, and Labyrinth Zone. Each area pushes the player
-                        to approach movement and platforming differently.
-                    </p>
+                <img src="/Images/Sebleste1.png" alt="Sebleste gameplay screenshot" />
 
-                    <img src="/Images/Sebleste2.png" alt="Sebleste rust zone screenshot" />
-                    <img src="/Images/Sebleste1.png" alt="Sebleste zone zero screenshot" />
-                    <img src="/Images/Sebleste3.png" alt="Sebleste labyrinth zone screenshot" />
-                    <img src="/Images/Sebleste6.png" alt="Sebleste zones overview screen" />
+                <h2>Collision and Level Logic</h2>
+                <p>
+                    Collision and progression are handled through tile-based checks. Functions
+                    such as <code>GetTileIndex()</code>, <code>OnGround()</code>,
+                    <code>CheckIfCollidableTile()</code>, <code>CheckIfGoalTile()</code>,
+                    <code>CheckIfPlatformTile()</code>, and <code>CheckIfSpikes()</code> allow
+                    the game to determine whether the player is grounded, blocked, dead, or has
+                    reached the end of a level. 
+                </p>
 
-                    <h2>Goals and Gameplay</h2>
-                    <p>
-                        The goal is to reach the door at the end of each zone, progressing
-                        steadily toward the summit. Success depends on using movement abilities
-                        carefully and learning from the environment.
-                    </p>
+                <p>
+                    Level progression is tied to the current level pointer and goal checks,
+                    while reset and respawn logic support repeated attempts. The manual also
+                    reflects this structure by describing zone progression and the player’s goal
+                    of reaching the door at the end of each area. 
+                </p>
 
-                    <img src="/Images/Sebleste11.png" alt="Sebleste goals screen" />
+                <img src="/Images/Sebleste11.png" alt="Sebleste goals screen" />
 
-                    <h2>Tips</h2>
-                    <p>
-                        Some gaps may be deceptive, you do not always need to jump in order to
-                        dash, and fragile ledges can collapse beneath you. Avoiding spikes and
-                        staying within the map boundaries is essential to survival.
-                    </p>
+                <h2>Rendering and Presentation</h2>
+                <p>
+                    The project manually defines background and sprite palettes and writes screen
+                    data directly for title, credits, and end screens. Title prompts, credits
+                    text, loading text, and death counter text are all explicitly stored and
+                    drawn, which reflects a more hands-on rendering pipeline than a typical
+                    engine-based workflow. 
+                </p>
 
-                    <img src="/Images/Sebleste9.png" alt="Sebleste tips screen" />
-                    <img src="/Images/Sebleste7.png" alt="Sebleste hazards screen" />
+                <h2>Tools and Content Pipeline</h2>
+                <p>
+                    On my CV, I position this project as NES game development carried out using
+                    low-level C programming and homebrew development tools, with audio integrated
+                    through FamiStudio and levels designed using NEXXT NES editing tools. That is
+                    the strongest framing for graduate roles because it shows low-level thinking,
+                    performance awareness, and implementation under system constraints.
+                </p>
 
-                    <h2>Credits</h2>
-                    <p>
-                        Developed by Sebastian Ha. The manual credits PixelFight for character
-                        art, Hexany Ives for map art, and Fami Studio / Fami Tracker demo songs
-                        for music.
-                    </p>
+                <img src="/Images/Sebleste6.png" alt="Sebleste controls and zones screen" />
 
-                    <img src="/Images/Sebleste8.png" alt="Sebleste credits screen" />
-                </div>
-            </section>
-        </>
-    )
+                <h2>Design and Gameplay</h2>
+                <p>
+                    The game’s structure is supported by three themed zones: Rust Zone, Zone
+                    Zero, and Labyrinth Zone. The manual frames them as distinct gameplay spaces
+                    with different hazards and pacing, helping the project feel like more than a
+                    single prototype level.
+                </p>
+
+                <img src="/Images/Sebleste2.png" alt="Rust Zone" />
+                <img src="/Images/Sebleste3.png" alt="Labyrinth Zone" />
+
+                <h2>What This Project Demonstrates</h2>
+                <p>
+                    For employers, Sebleste demonstrates low-level programming, state-driven game
+                    architecture, tile-based collision handling, gameplay tuning, and development
+                    within hardware-style constraints. It also shows I can build complete systems
+                    without relying on a large engine abstraction layer. 
+                </p>
+
+                <h2>Credits</h2>
+                <p>
+                    The instruction manual credits Sebastian Ha as developer, PixelFight for
+                    character art, Hexany Ives / Hexany Tiles for map art, and FamiTracker / Fami
+                    Studio demo songs for music. 
+                </p>
+
+                <img src="/Images/Sebleste8.png" alt="Sebleste credits screen" />
+            </div>
+        </section>
+    </>
+  )
 }
 
 export default Sebleste
