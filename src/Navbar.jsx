@@ -5,6 +5,7 @@ function NavBar() {
     return (
         <nav className="navbar">
           <div className="navbar-left">
+            <Link to="/"><img src="/Images/steamBunFinal.png" alt="Logo"/></Link>
             <Link to="/">Home</Link>
           </div>
           <div className="navbar-center">
