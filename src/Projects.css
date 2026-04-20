@@ -6,11 +6,15 @@
 }
 
 .projectsSectionTop {
-  margin-bottom: 30%;
+  margin-bottom: 3rem;
+}
+
+.projectsSection {
+  margin-bottom: 3rem;
 }
 
 .projectsSectionTop h3 {
-  padding: 4% 0px 0px 0px;
+  padding: 2% 0px 0px 0px;
 }
 
 .projectsSection h3 {

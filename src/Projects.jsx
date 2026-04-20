@@ -12,7 +12,8 @@ function Projects() {
             <hr />
             <div className='projectsList'>
               <div>
-                <h3>Final Year Project - An Educational Virtual Reality Approach to Raising Awareness of Digital Eye Strain (Computer Vision Syndrome)</h3>
+                <h3>Final Year Project</h3>
+                <h3>An Educational Virtual Reality Approach to Raising Awareness of Digital Eye Strain (Computer Vision Syndrome)</h3>
                 <Link to="/projects/FinalYearProject">
                   <img src="/Images/VR_Project7.png" className="projectImage" alt="VR applications in Optholmalogy" />
                 </Link> 
