@@ -5,3 +5,5 @@ function RuleBasedSystem() {
         </>
     )
 }
+
+export default RuleBasedSystem

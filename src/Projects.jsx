@@ -9,17 +9,21 @@ function Projects() {
           {/*Final Year Project*/}
           <div className='projectsSectionTop'>
             <h1>Year 3 Projects</h1>
-              <div className='projectsList'>
-                <div>
-                  <h3>Final Year Project - An Educational Virtual Reality Approach to Raising Awareness of Digital Eye Strain (Computer Vision Syndrome)</h3>
-                  <Link to="/projects/FinalYearProject">
-                    <img src="/Images/OutbreakDelta6.png" className="projectImage" alt="VR applications in Optholmalogy" />
-                  </Link> 
-                </div>
-                <div>
-                  <h3>Rule based system in c++ for waiting for a table</h3>
-                </div>
+            <hr />
+            <div className='projectsList'>
+              <div>
+                <h3>Final Year Project - An Educational Virtual Reality Approach to Raising Awareness of Digital Eye Strain (Computer Vision Syndrome)</h3>
+                <Link to="/projects/FinalYearProject">
+                  <img src="/Images/VR_Project7.png" className="projectImage" alt="VR applications in Optholmalogy" />
+                </Link> 
               </div>
+              <div>
+                <h3>Rule based system in c++ for waiting for a table</h3>
+                <Link to="/projects/RuleBasedSystem">
+                  <img src="/Images/RBS1.png" className="projectImage" alt="Rule Based System for Waiting for Table" />
+                </Link> 
+              </div>
+            </div>
           </div>
 
           {/* Year 2 Projects */}
@@ -30,7 +34,9 @@ function Projects() {
               {/*Sebleste*/}
               <div>
                 <h3>Sebleste</h3>
-                
+                <Link to="/projects/Sebleste">
+                  <img src="/Images/Sebleste12.png" className="projectImage" alt="Sebleste" />
+                </Link>
               </div>
               {/* Sploot */}
               <div>

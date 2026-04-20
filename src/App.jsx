@@ -13,6 +13,7 @@ import Sploot from './Projects/Sploot'
 import OutbreakDelta from './Projects/OutbreakDelta'
 import FinalYearProject from './Projects/VRProject'
 import Sebleste from './Projects/Sebleste'
+import RuleBasedSystem from './Projects/RuleBasedSystem'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/projects/OutbreakDelta" element={<OutbreakDelta />} />
           <Route path='/projects/FinalYearProject' element={<FinalYearProject />}/>
           <Route path='/projects/Sebleste' element={<Sebleste />}/>
+          <Route path='/projects/RuleBasedSystem' element={<RuleBasedSystem />}/>
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<ContactMe />} />
         </Routes>
