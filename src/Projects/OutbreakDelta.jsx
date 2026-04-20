@@ -16,6 +16,10 @@ function OutbreakDelta() {
                         </a>
                     </iframe>
 
+                    <br />
+                    <a href="https://github.com/sebha01/Metaverse-Assignment-1.git">Check out the repository here</a>
+                    <br />
+
                     <h3>What makes this game unique</h3>
                     <p>
                         This project is unique due to the fact you can dismember enemies,

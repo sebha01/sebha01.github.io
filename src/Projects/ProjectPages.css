@@ -8,6 +8,10 @@
   text-align: center; 
 }
 
+.projectDetails h1 {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
 
 hr {
   border: none;
@@ -15,7 +19,6 @@ hr {
   background-color: white;
   width: 20%;              
 }
-
 
 iframe {
   margin: 20px 0;

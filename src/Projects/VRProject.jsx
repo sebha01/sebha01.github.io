@@ -11,7 +11,14 @@ function FinalYearProject() {
                 <hr />
 
                 <h3>Final Year Project</h3>
-                <p>Unreal Engine 5.3.2 | Blueprints | Meta Quest 3 | VR Interaction Design | User Testing</p>
+
+                <br />
+                <a href="https://github.com/sebha01/VR_EyeProject.git">Check out the repository here</a>
+                <br />
+
+                <br />
+                <p>Unreal Engine 5.3.2 | Blueprints | Meta Quest 3 | VR Interaction Design | User Iterative Testing</p>
+                <br />
 
                 <p>
                     This project explores how Virtual Reality can be used as an educational tool

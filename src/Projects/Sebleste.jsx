@@ -15,7 +15,11 @@ function Sebleste() {
                 </iframe>
 
                 <br />
-                <a href="https://github.com/sebha01/VR_EyeProject.git">Check out the repository here</a>
+                <a href="https://github.com/sebha01/Sebleste.git">Check out the repository here</a>
+                <br />
+
+                <br />
+                <p>NES Homebrew | Low Level C | FamiStudio | NEXXT | MESENX </p>
                 <br />
 
                 <p>
