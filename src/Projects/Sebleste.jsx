@@ -14,6 +14,10 @@ function Sebleste() {
                     </a>
                 </iframe>
 
+                <br />
+                <a href="https://github.com/sebha01/VR_EyeProject.git">Check out the repository here</a>
+                <br />
+
                 <p>
                     Sebleste is a retro-inspired 2D platformer developed in low-level C for an
                     NES-style environment. The project focuses on implementing core gameplay
