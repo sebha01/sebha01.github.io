@@ -21,7 +21,7 @@ function App() {
     <BrowserRouter>
         <GoToTop />
         <NavBar></NavBar>
-
+        
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/projects" element={<Projects />} />

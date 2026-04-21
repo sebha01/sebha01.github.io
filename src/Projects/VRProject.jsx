@@ -35,7 +35,7 @@ function FinalYearProject() {
                 <p>
                     Digital Eye Strain is an increasingly common issue caused by prolonged screen
                     use, with symptoms including eye fatigue, light sensitivity, focus strain,
-                    headaches, and discomfort. The goal of this project was to use VR to present
+                    headaches and discomfort. The goal of this project was to use VR to present
                     those symptoms in a more engaging and memorable way than traditional teaching
                     approaches. 
                 </p>
@@ -44,7 +44,7 @@ function FinalYearProject() {
                 <p>
                     Although awareness of Digital Eye Strain exists, preventative habits are still
                     not consistently adopted. The project was designed to address that gap by
-                    creating an experience that allows users to interact with causes, symptoms,
+                    creating an experience that allows users to interact with causes, symptoms
                     and preventative measures inside a simulated desk environment. 
                 </p>
 
@@ -59,11 +59,11 @@ function FinalYearProject() {
 
                 <h2>What I Built</h2>
                 <p>
-                    I developed an interactive VR experience in Unreal Engine 5.3.2, tested on a
-                    Meta Quest 3 headset, using objective-based progression to guide users through
+                    I developed an interactive VR experience in Unreal Engine 5.3.2,which was tested on a
+                    Meta Quest 3 headset. It used objective-based progression to guide users through
                     symptom causes and preventative actions. The experience used a realistic desk
                     environment, gaze-based interactions, hand-trigger interactions, diegetic UI
-                    displayed through an in-world monitor, and post-processing effects to simulate
+                    displayed through an in-world monitor and post-processing effects to simulate
                     symptoms of Digital Eye Strain. 
                 </p>
 
@@ -75,14 +75,14 @@ function FinalYearProject() {
                     stored and updated during runtime, with progression controlled through gaze
                     tracking and interactive objects. Event dispatchers were used to notify the
                     system of state changes such as objective completion, symptom activation,
-                    symptom reversal, and UI updates.
+                    symptom reversal and UI updates.
                 </p>
 
                 <p>
                     To simulate Digital Eye Strain symptoms, I used post-processing effects:
                     vignette for eye fatigue, bloom for light sensitivity, and blur for focus
                     strain. Timelines were used to gradually apply and reverse these effects to
-                    keep transitions readable and comfortable for users. 
+                    keep transitions smooth and comfortable for users. 
                 </p>
 
                 <img src="/Images/VR_Project6.png" alt="Focus strain objective shown on monitor"/>
@@ -104,7 +104,7 @@ function FinalYearProject() {
                     Symptoms needed to be noticeable enough to communicate the effects of Digital
                     Eye Strain, but not so strong that they caused unnecessary discomfort. Another
                     challenge was refining VR interaction in Unreal Engine, particularly around
-                    gaze detection, hand physics collisions, and keeping the diegetic UI readable
+                    gaze detection, hand physics collisions and keeping the diegetic UI readable
                     and immersive.
                 </p>
 
@@ -112,9 +112,9 @@ function FinalYearProject() {
                 <p>
                     The project followed a User Centred Design approach with iterative testing.
                     Early prototype testing revealed two main usability problems: gaze detection
-                    felt too unforgiving, and the light switch interaction felt clunky. In
+                    felt too unforgiving and the light switch interaction felt clunky. In
                     response, hand physics collisions were removed, the light switch logic was
-                    simplified, and the gaze system was changed from a line trace to a wider
+                    simplified and the gaze system was changed from a line trace to a wider
                     capsule trace to improve error tolerance. 
                 </p>
 
@@ -123,7 +123,7 @@ function FinalYearProject() {
                 <h2>Results</h2>
                 <p>
                     Final testing showed that the improved experience more clearly demonstrated
-                    the causes, symptoms, and preventative measures of Digital Eye Strain. User
+                    the causes, symptoms and preventative measures of Digital Eye Strain. User
                     feedback indicated that the simulated symptoms helped recognition and
                     understanding, while iterative refinements reduced frustration and improved
                     usability. 
@@ -133,16 +133,15 @@ function FinalYearProject() {
                 <p>
                     This project highlights my ability to research a problem domain, design an
                     interactive system around user needs, implement VR interactions in Unreal
-                    Engine, test usability issues, and iterate based on feedback. It also shows
+                    Engine, test usability issues and iterate based on feedback. It also shows
                     my interest in technically focused work that combines software development,
-                    interaction design, and applied problem solving. This lines up closely with
-                    how the project is positioned in my CV. 
+                    interaction design and applied problem solving.
                 </p>
 
                 <h2>Future Improvements</h2>
                 <p>
                     Future work would include narration within the experience, accessibility
-                    settings, eye tracking for gaze detection, additional environments, and a
+                    settings, eye tracking for gaze detection, additional environments and a
                     more intuitive light switch interaction. Larger and more diverse testing
                     groups would also strengthen the experience further. 
                 </p>
