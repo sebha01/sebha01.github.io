@@ -15,7 +15,7 @@ function NavBar() {
                 <Link to="/projects/FinalYearProject">VR Final Project</Link> 
                 <Link to="/projects/RuleBasedSystem">Rule Based System</Link>
                 <Link to="/projects/Sebleste">Sebleste</Link>
-                <Link to="/projects/Aku">Sploot</Link>
+                <Link to="/projects/Sploot">Sploot</Link>
                 <Link to="/projects/OutbreakDelta">Outbreak Delta</Link>
                 <Link to="/projects/Sonder">Sonder</Link>
                 <Link to="/projects/Aku">Aku</Link>

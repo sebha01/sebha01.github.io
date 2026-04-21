@@ -5,7 +5,7 @@ function Sploot() {
         <>
             <section className="projectDetails">
                 <div>
-                    <h2>Sploot</h2>
+                    <h1>Sploot</h1>
                     <hr />
 
                     <br /><br />
@@ -21,7 +21,7 @@ function Sploot() {
                     <br />
 
                     <br />
-                    <p>Unity 6 | Scripting | 2D Top Down | Adventure RPG</p>
+                    <h3>Unity 6 | Scripting | 2D Top Down | Adventure RPG</h3>
                     <br />
 
                     <h3>What makes this game unique</h3>

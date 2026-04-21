@@ -8,7 +8,13 @@ function RuleBasedSystem() {
           <h1>Wait for Table Rule-Based System in C++</h1>
           <hr />
 
-          <h3>C++ | Rule-Based AI | Forward Chaining | Decision Support</h3>
+          <br />
+          <a href="https://github.com/sebha01/IntelligentSystemsAssignment1.git">Check out the repository here</a>
+          <br />
+
+          <br />
+          <h3>C++ | Rule Base | Working Memory | Forward Chaining | Inference Engines</h3>
+          <br />
 
           <p>
             This project is a C++ rule-based expert system built to solve the “wait for table”

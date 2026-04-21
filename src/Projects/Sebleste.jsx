@@ -1,3 +1,5 @@
+import './ProjectPages.css'
+
 function Sebleste() {
   return (
     <>
@@ -19,7 +21,7 @@ function Sebleste() {
                 <br />
 
                 <br />
-                <p>NES Homebrew | Low Level C | FamiStudio | NEXXT | MESENX </p>
+                <h3>NES Homebrew | Low Level C | FamiStudio | NEXXT | MESENX </h3>
                 <br />
 
                 <p>

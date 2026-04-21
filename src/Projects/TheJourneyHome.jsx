@@ -5,7 +5,7 @@ function TheJourneyHome() {
         <>
             <section className="projectDetails">
                 <div>
-                    <h2>The Journey Home</h2>
+                    <h1>The Journey Home</h1>
                     <hr />
 
                     <br /><br />
@@ -22,7 +22,7 @@ function TheJourneyHome() {
                     <br />
 
                     <br />
-                    <p>Unreal Engine 4.27 | Blueprints | 2D Sidescroller</p>
+                    <h3>Unreal Engine 4.27 | Blueprints | 2D Sidescroller</h3>
                     <br />
 
                     <p>

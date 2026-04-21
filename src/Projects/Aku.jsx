@@ -5,7 +5,7 @@ function Aku() {
         <>
             <section className="projectDetails">
                 <div>
-                    <h2>Aku, Frenzied Shinigami</h2>
+                    <h1>Aku, Frenzied Shinigami</h1>
                     <hr />
 
                     <br /><br />
@@ -22,7 +22,7 @@ function Aku() {
                     <br />
 
                     <br />
-                    <p>Unreal Engine 4.27 | Blueprints | 3D Souls Like Boss Fight</p>
+                    <h3>Unreal Engine 4.27 | Blueprints | 3D Souls Like Boss Fight</h3>
                     <br />
 
                     <p>

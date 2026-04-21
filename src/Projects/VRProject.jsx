@@ -17,7 +17,7 @@ function FinalYearProject() {
                 <br />
 
                 <br />
-                <p>Unreal Engine 5.3.2 | Blueprints | Meta Quest 3 | VR Interaction Design | User Iterative Testing</p>
+                <h3>Unreal Engine 5.3.2 | Blueprints | Meta Quest 3 | VR Interaction Design | User Iterative Testing</h3>
                 <br />
 
                 <p>

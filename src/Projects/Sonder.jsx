@@ -5,7 +5,7 @@ function Sonder() {
         <>
             <section className="projectDetails">
                 <div>
-                    <h2>Sonder</h2>
+                    <h1>Sonder</h1>
                     <hr />
 
                     <br /><br />
@@ -21,7 +21,7 @@ function Sonder() {
                     <br />
 
                     <br />
-                    <p>Godot 4.3 Stable | Scipting | GD Script | 3D Choice Based Narritive Driven Game</p>
+                    <h3>Godot 4.3 Stable | Scipting | GD Script | 3D Choice Based Narritive Driven Game</h3>
                     <br />
 
                     <h3>What makes this game unique</h3>

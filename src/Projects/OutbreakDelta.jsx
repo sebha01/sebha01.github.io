@@ -5,7 +5,7 @@ function OutbreakDelta() {
         <>
             <section className="projectDetails">
                 <div>
-                    <h2>Outbreak Delta</h2>
+                    <h1>Outbreak Delta</h1>
                     <hr />
 
                     <br /><br />
@@ -18,6 +18,10 @@ function OutbreakDelta() {
 
                     <br />
                     <a href="https://github.com/sebha01/Metaverse-Assignment-1.git">Check out the repository here</a>
+                    <br />
+
+                    <br />
+                    <h3>C# | Unity | VR</h3>
                     <br />
 
                     <h3>What makes this game unique</h3>
