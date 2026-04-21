@@ -16,6 +16,14 @@ function Sploot() {
                         </a>
                     </iframe>
 
+                    <br />
+                    <a href="https://github.com/PlaceholderGames/Sploot-FTS24.git">Check out the repository here</a>
+                    <br />
+
+                    <br />
+                    <p>Unity 6 | Scripting | 2D Top Down | Adventure RPG</p>
+                    <br />
+
                     <h3>What makes this game unique</h3>
                     <p>
                         Sploot is made unique by the dialogue interactions with NPCs, 

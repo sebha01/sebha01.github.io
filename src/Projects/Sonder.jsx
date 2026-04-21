@@ -16,6 +16,14 @@ function Sonder() {
                         </a>
                     </iframe>
 
+                    <br />
+                    <a href="https://github.com/PlaceholderGames/sonder-ftt24.git">Check out the repository here</a>
+                    <br />
+
+                    <br />
+                    <p>Godot 4.3 Stable | Scipting | GD Script | 3D Choice Based Narritive Driven Game</p>
+                    <br />
+
                     <h3>What makes this game unique</h3>
                     <p>
                         Sonder Reflections has a dialogue system that considers the choices you make and affects the result you get in the 

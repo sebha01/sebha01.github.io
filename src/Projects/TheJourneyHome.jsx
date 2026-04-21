@@ -17,6 +17,14 @@ function TheJourneyHome() {
                         </a>
                     </iframe>
 
+                    <br />
+                    <a href="https://github.com/PlaceholderGames/TheJourneyHome.git">Check out the repository here</a>
+                    <br />
+
+                    <br />
+                    <p>Unreal Engine 4.27 | Blueprints | 2D Sidescroller</p>
+                    <br />
+
                     <p>
                         Play as the cat in a post-apocalyptic world made barren by a pandemic caused by an incurable disease found in 
                         domesticated pets, make your way back home to your owner by traversing many environments, obstacles and puzzles along 
