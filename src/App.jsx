@@ -14,10 +14,12 @@ import OutbreakDelta from './Projects/OutbreakDelta'
 import FinalYearProject from './Projects/VRProject'
 import Sebleste from './Projects/Sebleste'
 import RuleBasedSystem from './Projects/RuleBasedSystem'
+import GoToTop from './GoToTop'
 
 function App() {
   return (
     <BrowserRouter>
+        <GoToTop />
         <NavBar></NavBar>
 
         <Routes>
