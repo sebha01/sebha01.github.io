@@ -24,35 +24,34 @@ function Sploot() {
                     <h3>Unity 6 | Scripting | 2D Top Down | Adventure RPG</h3>
                     <br />
 
-                    <h3></h3>
+                    <h2>Overview</h2>
                     <p>
-                        
+                        Sploot is a 2D top-down RPG developed in Unity. The project is structured around a set of interacting game elements which 
+                        together create the core gameplay loop. It includes a player controller, bounded NPC movement, dialogue interactions, a quest manager, enemy behaviour,
+                        collectibles, item drops, health management and menu systems. These components work together to guide the player through 
+                        exploration, combat and progression. Supporting systems such as camera follow, music control, sound effects and UI health bars were also implemented to improve 
+                        feedback and create a more complete gameplay experience.
                     </p>
 
-                    <img src="/Images/Sploot2.png"/>
-                
-                    <h3></h3>
+                    <img src="/Images/Sploot2.png" alt="Sploot gameplay screenshot" />
+                    
+                    <h2>Technical Implementation</h2>
                     <p>
-                        
-                    </p>
-                    <p>
-
-                    </p>
-                    <img src="/Images/Sploot4.png"/>
-                
-                    <h3></h3>
-                    <p>
-                        
+                        Developed using Unity 6 and C# scripting that was organised around individual gameplay responsibilities. Separate scripts manage 
+                        areas such as player behaviour, enemy control, health, item collection, loot drops, quest progression and audio. This helped 
+                        keep the project modular and made it easier to extend core features during development.
                     </p>
                 
-                    <img src="/Images/Sploot5.png"/>
+                    <img src="/Images/Sploot4.png" alt="Sploot quest or dialogue screenshot" />
 
-                    <h3></h3>
+                    <h2>Challenges and Improvements</h2>
                     <p>
-                        
+                        A key challenge in this project was maintaining clear structure while developing multiple interacting gameplay systems. Working 
+                        within scope was important, so the focus remained on completing core features first before expanding into additional mechanics 
+                        such as quests, collectibles and interactive NPC dialogue.
                     </p>
 
-                    <img src="/Images/Sploot8.png"/>
+                    <img src="/Images/Sploot8.png" alt="Sploot additional gameplay screenshot" />
                 </div>
             </section>
         </>
