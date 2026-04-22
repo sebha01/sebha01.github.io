@@ -8,8 +8,7 @@ function Projects() {
         <div>
           {/*Final Year Project*/}
           <div className='projectsSectionTop'>
-            <h1>Year 3 Projects</h1>
-            <hr />
+            <h1>Projects</h1>
             <div className='projectsList'>
               <div>
                 <h3>Final Year Project</h3>
@@ -29,8 +28,6 @@ function Projects() {
 
           {/* Year 2 Projects */}
           <div className="projectsSection">
-            <h1>Year 2 Projects:</h1>
-            <hr />
             <div className="projectsList">
               {/*Sebleste*/}
               <div>
@@ -67,8 +64,6 @@ function Projects() {
 
           {/* Year 1 Projects */}
           <div className="projectsSection">
-            <h1>Year 1 Projects:</h1>
-            <hr />
             <div className="projectsList">
               {/* Aku */}
               <div>
