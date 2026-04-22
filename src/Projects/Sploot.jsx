@@ -33,7 +33,7 @@ function Sploot() {
                         feedback and create a more complete gameplay experience.
                     </p>
 
-                    <img src="/Images/Sploot2.png" alt="Sploot gameplay screenshot" />
+                    <img src="/Images/Sploot2.png" />
                     
                     <h2>Technical Implementation</h2>
                     <p>
@@ -42,7 +42,7 @@ function Sploot() {
                         keep the project modular and made it easier to extend core features during development.
                     </p>
                 
-                    <img src="/Images/Sploot4.png" alt="Sploot quest or dialogue screenshot" />
+                    <img src="/Images/Sploot4.png" />
 
                     <h2>Challenges and Improvements</h2>
                     <p>
@@ -51,7 +51,7 @@ function Sploot() {
                         such as quests, collectibles and interactive NPC dialogue.
                     </p>
 
-                    <img src="/Images/Sploot8.png" alt="Sploot additional gameplay screenshot" />
+                    <img src="/Images/Sploot8.png" />
                 </div>
             </section>
         </>

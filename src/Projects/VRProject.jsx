@@ -26,10 +26,7 @@ function FinalYearProject() {
                     interactive, immersive experience.
                 </p>
 
-                <img
-                    src="/Images/VR_Project7.png"
-                    alt="Final VR environment overview"
-                />
+                <img src="/Images/VR_Project7.png" />
 
                 <h2>Project Overview</h2>
                 <p>
@@ -48,7 +45,7 @@ function FinalYearProject() {
                     and preventative measures inside a simulated desk environment. 
                 </p>
 
-                <img src="/Images/VR_Project1.png" alt="Eye fatigue symptom simulation"/>
+                <img src="/Images/VR_Project1.png" />
 
                 <h2>Aim</h2>
                 <p>
@@ -67,7 +64,7 @@ function FinalYearProject() {
                     symptoms of Digital Eye Strain. 
                 </p>
 
-                <img src="/Images/VR_Project5.png" alt="Prototype room layout in Unreal Engine"/>
+                <img src="/Images/VR_Project5.png" />
 
                 <h2>Technical Implementation</h2>
                 <p>
@@ -85,7 +82,7 @@ function FinalYearProject() {
                     keep transitions smooth and comfortable for users. 
                 </p>
 
-                <img src="/Images/VR_Project6.png" alt="Focus strain objective shown on monitor"/>
+                <img src="/Images/VR_Project6.png" />
 
                 <h2>Interaction Design</h2>
                 <p>
@@ -96,7 +93,7 @@ function FinalYearProject() {
                     flow to reinforce learning without breaking immersion.
                 </p>
 
-                <img src="/Images/VR_Project2.png" alt="Light switch interaction"/>
+                <img src="/Images/VR_Project2.png" />
 
                 <h2>Challenges</h2>
                 <p>
@@ -118,7 +115,7 @@ function FinalYearProject() {
                     capsule trace to improve error tolerance. 
                 </p>
 
-                <img src="/Images/VR_Project4.png" alt="Start menu environment"/>
+                <img src="/Images/VR_Project4.png" />
 
                 <h2>Results</h2>
                 <p>
@@ -146,7 +143,7 @@ function FinalYearProject() {
                     groups would also strengthen the experience further. 
                 </p>
 
-                <img src="/Images/VR_Project3.png" alt="Light sensitivity prevention task"/>
+                <img src="/Images/VR_Project3.png" />
             </div>
         </section>
     </>

@@ -70,7 +70,6 @@ function RuleBasedSystem() {
             systems compared to more opaque approaches.
           </p>
 
-          <img src="/Images/RBS3.png" alt="Rule-based system wait decision output" />
           <img src="/Images/RBS5.png" alt="Rule-based system leave decision output" />
 
           <h2>Usability and Reliability</h2>
@@ -93,6 +92,8 @@ function RuleBasedSystem() {
             applied AI, particularly in contexts where software must justify the reasoning
             behind its output.
           </p>
+
+          <img src="/Images/RBS3.png" alt="Rule-based system wait decision output" />
 
           <h2>Limitations and Future Work</h2>
           <p>

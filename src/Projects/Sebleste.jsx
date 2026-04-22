@@ -31,7 +31,7 @@ function Sebleste() {
                     constraints.
                 </p>
 
-                <img src="/Images/Sebleste12.png" alt="Sebleste title screen" />
+                <img src="/Images/Sebleste12.png" />
 
                 <h2>Project Overview</h2>
                 <p>
@@ -57,7 +57,7 @@ function Sebleste() {
                     player logic organised around a single object.
                 </p>
 
-                <img src="/Images/Sebleste6.png" alt="Sebleste controls and zones screen" />
+                <img src="/Images/Sebleste6.png" />
 
                 <h2>Movement Systems</h2>
                 <p>
@@ -70,7 +70,7 @@ function Sebleste() {
                     behaviour. 
                 </p>
 
-                <img src="/Images/Sebleste1.png" alt="Sebleste gameplay screenshot" />
+                <img src="/Images/Sebleste1.png" />
 
                 <h2>Collision and Level Logic</h2>
                 <p>
@@ -88,7 +88,7 @@ function Sebleste() {
                     around reaching a goal at the end of the area, reinforcing progression through the game.
                 </p>
 
-                <img src="/Images/Sebleste2.png" alt="Rust Zone" />
+                <img src="/Images/Sebleste2.png" />
 
                 <h2>Rendering and Presentation</h2>
                 <p>
@@ -97,7 +97,7 @@ function Sebleste() {
                     This reflects a low-level rendering approach without relying on engine rendering.
                 </p>
                 
-                <img src="/Images/Sebleste3.png" alt="Labyrinth Zone" />
+                <img src="/Images/Sebleste3.png" />
 
                 <h2>What This Project Demonstrates</h2>
                 <p>
@@ -106,7 +106,7 @@ function Sebleste() {
                     within hardware-style constraints. It also shows I can build complete systems
                     without relying on a large engine abstraction layer. 
                 </p>
-                <img src="/Images/Sebleste8.png" alt="Sebleste credits screen" />
+                <img src="/Images/Sebleste8.png" />
             </div>
         </section>
     </>
