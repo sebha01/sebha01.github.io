@@ -24,59 +24,32 @@ function Sploot() {
                     <h3>Unity 6 | Scripting | 2D Top Down | Adventure RPG</h3>
                     <br />
 
-                    <h3>What makes this game unique</h3>
+                    <h3></h3>
                     <p>
-                        Sploot is made unique by the dialogue interactions with NPCs, 
-                        creating life within the world of the game. NPCs are alive, move 
-                        around, and can be interacted with, which adds an immersive 
-                        experience. Additionally, enemies drop collectibles upon defeat, 
-                        giving players the chance to recover their health or get one step 
-                        closer to completing a quest. The quest system guides players 
-                        through objectives, giving meaning to the actions the player is 
-                        being asked to do and providing a sense of adventure.
+                        
                     </p>
 
                     <img src="/Images/Sploot2.png"/>
                 
-                    <h3>The Good</h3>
+                    <h3></h3>
                     <p>
-                        I am proud of the work I produced and the consistency of my work 
-                        ethic, especially after a previous project where I had to make the 
-                        difficult decision to terminate it earlier than planned. Despite 
-                        challenges, I maintained a steady rate of work, which reassured me
-                        that I have the confidence to tackle future projects, even if they
-                        don’t go to plan. One significant improvement in this project, 
-                        compared to previous ones, was the inclusion of proper planning 
-                        from the start. Earlier projects suffered from a lack of 
-                        structure, often leaving players wandering aimlessly without 
-                        clear direction or music, which made the experience boring 
-                        quickly.
+                        
                     </p>
                     <p>
-                        I managed to work well within the project’s scope, completing all 
-                        the essential features before experimenting with new mechanics. 
-                        This allowed me to expand on the game with a quest system, 
-                        collectibles, and interactive NPC dialogue.
+
                     </p>
                     <img src="/Images/Sploot4.png"/>
                 
-                    <h3>The Bad</h3>
+                    <h3></h3>
                     <p>
-                        Illness at the time limited the amount of work I could complete, 
-                        which slowed progress at certain points. Working solo on this 
-                        project highlighted the benefits of having teammates. Collaborating
-                        with others could have provided valuable second opinions and 
-                        allowed me to improve certain aspects of the game.
+                        
                     </p>
                 
                     <img src="/Images/Sploot5.png"/>
 
-                    <h3>The things I would do differently next time</h3>
+                    <h3></h3>
                     <p>
-                        In the future, I would look to work in a team, ultimately 
-                        strengthening the result. I also want to use a roadmap when working
-                        on solo projects to ensure I maintain a clear direction and don’t 
-                        spend too much time on one part of the project.
+                        
                     </p>
 
                     <img src="/Images/Sploot8.png"/>
