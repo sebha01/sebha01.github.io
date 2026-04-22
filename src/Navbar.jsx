@@ -19,7 +19,6 @@ function NavBar() {
                 <Link to="/projects/OutbreakDelta">Outbreak Delta</Link>
                 <Link to="/projects/Sonder">Sonder</Link>
                 <Link to="/projects/Aku">Aku</Link>
-                <Link to="/projects/TheJourneyHome">The Journey Home</Link>
               </div>
             </div>
             <Link to="/about">About Me</Link>

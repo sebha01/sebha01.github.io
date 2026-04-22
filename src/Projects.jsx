@@ -77,14 +77,6 @@ function Projects() {
                   <img src="/Images/AkuLogo.png" className="Aku" alt="Aku" />
                   </Link>
               </div>
-
-              {/* The Journey Home */}
-              <div>
-                <h3>The Journey Home</h3>
-                <Link to="/projects/TheJourneyHome">
-                  <img src="/Images/TJH1.png" className="projectImage" alt="The Journey Home" />
-                </Link>
-              </div>
             </div>
           </div>
         </div>
