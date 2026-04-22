@@ -24,43 +24,29 @@ function Sonder() {
                     <h3>Godot 4.3 Stable | Scipting | GD Script | 3D Choice Based Narritive Driven Game</h3>
                     <br />
 
-                    <h3>What makes this game unique</h3>
+                    <h3></h3>
                     <p>
-                        Sonder Reflections has a dialogue system that considers the choices you make and affects the result you get in the 
-                        end and is a narrative driven project instead of one that focuses purely on mechanics. Models and music made by the 
-                        members of the team instead of being sourced externally.
+                        
                     </p>
 
                     <img src="/Images/Sonder1.png"/>
                 
-                    <h3>The Good</h3>
+                    <h3></h3>
                     <p>
-                        The teamwork was enjoyable due amount of communication there was with a majority of the team members with morale high 
-                        during our crunch period for the project and we had direct input and provided suggestions for other team members to due 
-                        to being in calls and close contact. Massive collaboration between us to complete this project as well as planning 
-                        massively reduced clashes and halts in development down the line as we already had a set plan and work to do so we 
-                        never had to go back to the drawing board for extensive periods of time. We had a lot of backup options in place for 
-                        anything that went wrong and killed our darlings and removed features that would only pile on workload, in the end we kept 
-                        everything that portrayed the message of what Sonder Reflections as a game was meant to feel like.
+                        
                     </p>
                     <img src="/Images/Sonder2.png"/>
                 
-                    <h3>The Bad</h3>
+                    <h3></h3>
                     <p>
-                        Timing for work to be completed, everything was crunched within the last week because that was the only time we had to 
-                        be able to work on the project.
+                        
                     </p>
                 
                     <img src="/Images/Sonder4.png"/>
 
-                    <h3>The things I would do differently next time</h3>
+                    <h3></h3>
                     <p>
-                        I would keep the team smaller as we could create a more focused effort in a smaller group with better consistency.
-                        I would also act sooner in terms of delegation of tasks and setting work for members of the team as a lot of it fell 
-                        to me and at points it was pretty overwhelming as I would have multiple questions at once while doing my own role, 
-                        although I did resolve this and broke down the massive amount of work into small attainable steps I didn’t lean on 
-                        others as soon as I should have and it was a massive headache trying to make sure everyone was on track and members 
-                        were preoccupied with the next set of work if they had completed their task.
+                        
                     </p>
 
                     <img src="/Images/Sonder6.png"/>

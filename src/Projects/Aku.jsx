@@ -26,11 +26,7 @@ function Aku() {
                     <br />
 
                     <p>
-                        This game is a souls like boss fight made with Unreal Engine that includes a tutorial at the beginning to teach 
-                        players the controls and get a feel for the game before heading into the boss fight. In the boss fight the player 
-                        must take on Aku, Frenzied Shinigami, an oni like creature that is hellbent on killing everyone and everything! Dodge, 
-                        avoid and attack Aku as you take on this deranged creature by using your range of attacks, dodges and healing crystals 
-                        to survive his onslaught against you!
+                        
                     </p>
 
                     <img src="/Images/Aku1.png"/>

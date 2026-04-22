@@ -26,9 +26,7 @@ function TheJourneyHome() {
                     <br />
 
                     <p>
-                        Play as the cat in a post-apocalyptic world made barren by a pandemic caused by an incurable disease found in 
-                        domesticated pets, make your way back home to your owner by traversing many environments, obstacles and puzzles along 
-                        the way while avoiding the crows and other enemies that want to stop you from getting back to your home.
+                        
                     </p>
 
                     <img src="/Images/TJH1.png"/>
