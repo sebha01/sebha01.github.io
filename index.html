@@ -1,105 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="/style.css">
-        <script src="/script.js"></script>
-        <title>Sebastian Ha</title>
-    </head>
-    <body>
-        <!-- Heading section --> 
-        <section class="logoContainer">
-            <div class="logo"></div>
-        </section>
-        <section>
-            <nav class="headingSection">
-                <ul>
-                    <!-- About me -->
-                    <li>
-                        <a href="/HTML/AboutMe.html">
-                            About Me
-                        </a>
-                    </li>
-                    <!-- Projects -->
-                    <li class="dropdown">
-                        <a href="/HTML/Projects.html" class="dropBtn">Projects</a>
-                        <div class="dropdownContent">
-                            <a href="/HTML/Projects/Sploot.html">Sploot</a>
-                            <a href="/HTML/Projects/OutbreakDelta.html">Outbreak Delta</a>
-                            <a href="/HTML/Projects/Sonder.html">Sonder</a>
-                            <a href="/HTML/Projects/Aku.html">Aku</a>
-                            <a href="/HTML/Projects/TheJourneyHome.html">The Journey Home</a>
-                        </div>
-                    </li>
-                    <!-- Contact Me-->
-                    <li>
-                        <a href="/HTML/ContactMe.html">
-                            Contact Me
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <!-- Main Page section -->
-        <section class="hero">
-            <div class="heroContent">
-              <!-- First slide -->
-              <div class="slide">
-                <p>Hi, I'm Sebastian Ha, a second year computer games development student.</p>
-                <p>I'm a passionate game developer skilled in Unity, Unreal, and C++. I love solving problems and pushing the limits of interactive experiences especially when collaborating in a team.</p>
-                <br><br>
-                <p>Game Developer | Problem Solver | Tech Enthusiast</p>
-                <br><br>
-                <a href="/HTML/AboutMe.html">Learn more about me</a>
-              </div>
-          
-              <!-- Second slide -->
-              <div class="slide">
-                <h1>My Latest Project</h1>
-                    <img src="/Images/Sonder1.png" alt="Project 1">
-                <h2>Sonder</h2>
-                <p>
-                    A 3D Multi camera view project made in Godot<br>
-                    Step into the driver’s seat during the chaos of rush hour, ferrying strangers through the city as they make their way 
-                    home. With every passenger that slides into your cab, you catch glimpses of their lives—small moments that hint at 
-                    something much bigger. As their stories unfold, you’re hit with the realization that each person, no matter how fleeting 
-                    their presence, carries a world just as intricate as your own. And in witnessing their journeys, you start to reflect on 
-                    your own, that familiar yet fleeting feeling of sonder settling in once again.
-                </p>
-                <a href="/HTML/Projects/Sonder.html">See More</a>
-                <br><br>
-                <a href="/HTML/Projects.html">View My Projects</a>
-              </div>
-          
-              <!-- Third slide -->
-              <div class="slide">
-                <p>Interested in what I bring to the table on your project ideas? Well why not give me a message and I'll be sure to reply to you!</p>
-                <a href="/HTML/ContactMe.html">Contact Me</a>
-              </div>
-            </div>
-          
-            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-            <button class="next" onclick="moveSlide(1)">&#10095;</button>
-          </section>
-        <!-- Footer section -->
-        <footer>
-            <p>CopyRight &copy; 2025 Sebastian Ha. All Rights Reserved.</p>
-            <p>Contact Me: <a href="mailto:sebastianha175@gmail.com" class="footerLink">
-                sebastianha175@gmail.com
-            </a></p>
-            <p class="followMeText">Follow me : 
-                <a href="https://github.com/sebha01">
-                    <img src="/Images/github-mark-white.png" alt="GitHub" class="footerImages">
-                </a> | 
-                <a href="https://www.linkedin.com/in/sebastian-ha-3b4602251/">
-                    <img src="/Images/LI-Logo.png" alt="LinkedIn" class="footerImages">
-                </a> |
-                <a href="https://sebastianha01.itch.io/">
-                    <img src="/Images/itchio-logo-white.png" alt="Itch.io" class="footerImages">
-                </a>
-            </p>
-        </footer>
-        <!-------------------------------------------------------------->
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

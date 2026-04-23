@@ -1,0 +1,138 @@
+
+
+.contactPageSection {
+  padding: 4rem 2rem;
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.contactContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.contactLeft {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactLeftTitle h2 {
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem;
+  color: var(--text-h);
+}
+
+.contactLeftTitle hr {
+  border: none;
+  width: 120px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 999px;
+  margin: 0 0 1rem;
+}
+
+.contactInputs {
+  width: 100%;
+  max-width: 450px;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--code-bg);
+  color: var(--text-h);
+  box-sizing: border-box;
+}
+
+.contactLeft textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contactInputs:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.contactInputs::placeholder {
+  color: var(--text);
+}
+
+.contactLeft button {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+}
+
+.contactLeft button:hover {
+  opacity: 0.9;
+}
+
+.contactLeft button img {
+  height: 14px;
+}
+
+.contactRight {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.contactRight img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .contactPageSection {
+    padding: 3rem 1.5rem;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contactLeft {
+    align-items: center;
+  }
+
+  .contactInputs {
+    max-width: 100%;
+  }
+
+  .contactLeft button {
+    align-self: center;
+  }
+
+  .contactRight img {
+    max-width: 280px;
+  }
+}
+
+.attributionSection {
+  padding: 8rem 2rem 1rem;
+}
+
+.attributionSection a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.attributionSection a:hover {
+  color: var(--accent);
+}

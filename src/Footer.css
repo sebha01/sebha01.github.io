@@ -1,0 +1,35 @@
+.footer {
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.footer p {
+  margin: 0.4rem 0;
+}
+
+.footerLink {
+  color: var(--text-h);
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  color: var(--accent);
+}
+
+.followMeText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.footerImages {
+  height: 18px;
+  width: auto;
+  display: block;
+}

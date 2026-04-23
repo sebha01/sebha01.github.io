@@ -1,12 +1,16 @@
-This is my portfolio website created to showcase the projects I have worked on since 2022
+# React + Vite
 
-When this repository is done then it will be available on github pages
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Below are images used for portfolio and where they have been retrieved from
+Currently, two official plugins are available:
 
-Steam Bun Games logo picture :- created on https://looka.com/ 
-Github Logo :- used only for hyperlink to my github page license on link: https://github.com/logos
-LinkedIn Logo :- https://brand.linkedin.com/en-us
-Itch.io logo :- https://itch.io/press-kit
-Arrow image :- https://www.flaticon.com/free-icons/arrows
-Email image :- https://www.flaticon.com/free-icons/contact-us
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -1,0 +1,134 @@
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  min-height: 65vh;
+  background-image: url("/Images/HeroSectionImage.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--bg) 0%,
+    rgba(15, 17, 23, 0.2) 20%,
+    rgba(15, 17, 23, 0.2) 80%,
+    var(--bg) 100%
+  );
+}
+
+.heroText {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 800px;
+}
+
+.heroText p {
+  margin: 0.6rem 0;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.heroButton {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--border);
+  color: var(--text-h);
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+}
+
+.heroButton:hover {
+  color: var(--accent);
+}
+
+.extras {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--border);
+}
+
+.featuredProject,
+.keySkills {
+  position: relative;
+  padding: 2rem;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.featuredProject::before,
+.keySkills::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 10, 20, 0.72);
+}
+
+.featuredProject > *,
+.keySkills > * {
+  position: relative;
+  z-index: 1;
+}
+
+.featuredProject {
+  border-right: 1px solid var(--border);
+  background-image: url("/Images/VR_Project2.png");
+}
+
+.keySkills {
+  background-image: url("/Images/Sebleste5.png");
+}
+
+.featuredProject a,
+.keySkills a {
+  color: var(--text-h);
+  text-decoration: none;
+}
+
+.featuredProject img {
+  width: 45%;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+  border: 3px solid white;
+}
+
+.keySkills p,
+.featuredProject p {
+  margin: 0.6rem 0;
+}
+
+@media (max-width: 900px) {
+  .extras {
+    grid-template-columns: 1fr;
+  }
+
+  .featuredProject {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .featuredProject img {
+    width: 100%;
+  }
+}

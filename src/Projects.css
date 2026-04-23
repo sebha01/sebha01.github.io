@@ -1,0 +1,35 @@
+.projectsContainer {
+  color: white;
+  font-size: x-large; 
+  text-align: center;
+  padding: 20px;
+}
+
+.projectsSectionTop {
+  margin-bottom: 3rem;
+}
+
+.projectsSection {
+  margin-bottom: 3rem;
+}
+
+.projectsSectionTop h3 {
+  padding: 2% 0px 0px 0px;
+}
+
+.projectsSection h3 {
+  padding: 4% 0px 0px 0px;
+}
+
+.projectImage {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid white;
+}
+
+.Aku {
+  width: 30%;
+  height : auto;
+}
+
