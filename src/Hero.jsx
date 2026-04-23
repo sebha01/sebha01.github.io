@@ -7,23 +7,37 @@ function Hero() {
     <>
       <section className="hero">
         <div className="heroText">
+            <h1>Sebastian Ha</h1>
+            <h2>Final-year Computer Games Development student seeking graduate software engineering roles</h2>
+
             <p>
-              Hi, I'm Sebastian Ha, a second year computer games development student.
+              Strong in C++, C#, Python and low-level C, with project experience across Unreal Engine, Unity, Godot and VR development.
             </p>
             <p>
-              I'm a passionate game developer skilled in Unity, Unreal, and C++. 
-              I love solving problems and pushing the limits of interactive experiences 
-              especially when collaborating in a team.
-            </p>
-            <p>
-              Game Developer | Problem Solver | Video Game Enthusiast
+              My work includes a VR educational application in Unreal Engine, a rule-based system in C++ and an NES-style game.
             </p>
         </div>     
         <Link to="/about" className="heroButton">Learn more about me</Link>  
       </section>
       <section className="extras">
-        <div>Most recent project</div>
-        <div>Qualifications</div> 
+        <div className="featuredProject">
+          <h3>Featured Project</h3>
+          <h4>VR Educational System (Final Year Project)</h4>
+          <p>Unreal Engine | VR Interaction | User Testing</p>
+          <Link to="/projects/finalyearproject">
+            <img src="/Images/VR_Project7.png" />
+          </Link>
+        </div>
+
+        <div className="keySkills">
+          <h3>Key Skills</h3>
+          <p>C++, C#, Python, Low-level C</p>
+          <p>Unreal Engine, Unity, Godot</p>
+          <br />
+          <h3>Qualifications</h3>
+          <p>BSc Honours Computer Games Development</p>
+          <p>Graduated July 2026 with a First Class Honours</p>
+        </div>
       </section>
     </>
   )
