@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import NavBar from './NavBar'
 import Hero from './Hero'
@@ -17,7 +17,7 @@ import GoToTop from './GoToTop'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <GoToTop />
         <NavBar></NavBar>
         
@@ -36,7 +36,7 @@ function App() {
         </Routes>
 
         <Footer></Footer>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
